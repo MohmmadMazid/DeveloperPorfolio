@@ -1,18 +1,20 @@
 import React from "react";
-import javascript from "../assets/jS.png";
-import EXPRESSJS from "../assets/EXPRESSJS.png";
-import HTML5 from "../assets/HTML5.png";
-import CSS3 from "../assets/CSS3.png";
-import Nodejs from "../assets/NODEJ.png";
-import Reactjs from "../assets/reactJs.png";
+import javascript from "../assets/javascript-1.svg";
+import EXPRESSJS from "../assets/express-109.svg";
+import HTML5 from "../assets/html-1.svg";
+import CSS3 from "../assets/css-3.svg";
+import Nodejs from "../assets/nodejs-1.svg";
+import Reactjs from "../assets/react-2.svg";
 import clanguage from "../assets/c-1.svg";
 import cplusplus from "../assets/c.svg";
 import tailwindcss from "../assets/tailwind-css-2.svg";
 import reduxToolkit from "../assets/redux.svg";
+import mongoDb from "../assets/mongodb-icon-2.svg";
+import mySql from "../assets/mysql-logo-pure.svg";
 
 const Skills = () => {
   return (
-    <div id="skills" className="bg-gray-50 py-20">
+    <div id="skills" className="mt-10 bg-gray-50 py-20">
       <div className="text-center mb-10 px-6">
         <h1 className="text-3xl md:text-4xl font-semibold">Tech Stack</h1>
         <div className="h-[2px] bg-gray-500 w-24 mx-auto mt-3"></div>
@@ -75,6 +77,16 @@ const Skills = () => {
           </p>
         </div>
         <div>
+          <img src={mongoDb} alt="Express.js" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">MongoDb</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Skilled in designing and managing NoSQL databases with MongoDB,
+            handling collections, documents, and basic queries efficiently.
+            Experienced in performing CRUD operations in MongoDB to store,
+            retrieve, and update application data effectively.
+          </p>
+        </div>
+        <div>
           <img src={reduxToolkit} alt="Express.js" className="h-20 mx-auto" />
           <h1 className="text-xl font-semibold mt-5">Redux-Toolkit</h1>
           <p className="font-light text-slate-600 mt-3 leading-7">
@@ -92,21 +104,32 @@ const Skills = () => {
           </p>
         </div>
         <div>
+          <img src={mySql} alt="Express.js" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">MYSQL</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Proficient in creating and managing relational databases using SQL,
+            including tables, queries, and basic data manipulation. Skilled in
+            writing SQL queries to insert, update, delete, and retrieve data for
+            structured applications.
+          </p>
+        </div>
+        <div>
           <img src={cplusplus} alt="Express.js" className="h-20 mx-auto" />
           <h1 className="text-xl font-semibold mt-5">C++</h1>
           <p className="font-light text-slate-600 mt-3 leading-7">
-            Skilled in developing efficient and modular programs using C++, with
-            strong knowledge of OOP, STL, memory management, and problem-solving
-            algorithms.
+            Good in writing clean and efficient programs in C++, with good
+            knowledge of OOP concepts, standard libraries (STL), and basic
+            problem-solving techniques. Familiar with data structures like
+            arrays, stacks, queues, linked lists, and trees.
           </p>
         </div>
         <div>
           <img src={clanguage} alt="Express.js" className="h-20 mx-auto" />
           <h1 className="text-xl font-semibold mt-5">C</h1>
           <p className="font-light text-slate-600 mt-3 leading-7">
-            Proficient in C programming for building low-level, high-performance
-            applications, with expertise in pointers, data structures, and
-            system-level programming.
+            Intermidiate in C programming for building simple and effective
+            applications, with understanding of pointers, arrays, and basic data
+            structures such as stacks, queues, linked lists, and trees.
           </p>
         </div>
       </div>

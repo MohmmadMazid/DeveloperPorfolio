@@ -1,9 +1,14 @@
 import React from "react";
-import about from "../assets/AboutSvg.svg";
+// import about1 from "../assets/AboutSvg.svg";
+import about from "../assets/About.svg";
 
 const About = () => {
   return (
     <div id="about" className=" sm:mt-20 bg-lime-50  ">
+      <div className="text-center mb-10 px-6">
+        <h1 className="text-3xl md:text-4xl font-semibold">About Me</h1>
+        <div className="h-[2px] bg-gray-500 w-24 mx-auto mt-3"></div>
+      </div>
       <div className="flex flex-col lg:flex-row flex-wrap items-center justify-around">
         <div className="flex justify-center lg:justify-start w-full lg:w-1/2">
           <img
@@ -13,10 +18,6 @@ const About = () => {
           />
         </div>
         <div className="max-w-xl px-4 sm:px-8 mt-8 lg:mt-0 lg:w-1/2">
-          <h1 className="text-2xl sm:text-3xl font-semibold tracking-widest mb-4">
-            About Me
-          </h1>
-          <div className="h-[1px] bg-slate-400 mb-5"></div>
           <h2 className="text-sm sm:text-base text-slate-500 leading-relaxed">
             I’m a passionate{" "}
             <span className="font-semibold text-slate-700">

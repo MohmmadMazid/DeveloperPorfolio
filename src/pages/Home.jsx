@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./Header";
-import myImage1 from "../assets/hero-1.svg";
+// import myImage1 from "../assets/hero-1.svg";
 // import resumeImge from "../assets/resumesvg.png";
+import homeImage from "../assets/homeImage.svg";
 
 const Home = () => {
   return (
@@ -26,9 +27,9 @@ const Home = () => {
 
         <div className="mb-10 lg:mb-0">
           <img
-            className="w-60 sm:w-72 md:w-96 lg:w-[500px] xl:w-[600px] mx-auto rounded-"
-            src={myImage1}
-            // src={myImage2}
+            className="w-60 sm:w-72 md:w-96 lg:w-[500px] xl:w-[500px] mx-auto rounded-"
+            // src={myImage1}
+            src={homeImage}
 
             // src="https://media.licdn.com/dms/image/v2/D5603AQFKlVLePPQzHQ/profile-displayphoto-scale_400_400/B56ZjMvqQxHUAg-/0/1755781704686?e=1759363200&v=beta&t=1gTiCLtfUhv1P4kTjYYC2WQMcOArIWMOF9Tc-h-cy6c"
             // alt="Hero"
