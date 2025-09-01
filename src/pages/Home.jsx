@@ -16,7 +16,7 @@ const Home = () => {
             I&apos;m Mohmmad <br className="hidden sm:block" /> Mazid
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-slate-600 tracking-widest">
-            Front-End Developer
+            MERN-Stack Developer
           </p>
           <p className="text-xl font-extralight text-gray-700 mt-2 tracking-widest">
             Turning ideas into interactive reality. <br />

@@ -3,7 +3,7 @@ import about from "../assets/AboutSvg.svg";
 
 const About = () => {
   return (
-    <div id="about" className="mt-10 sm:mt-20">
+    <div id="about" className=" sm:mt-20 bg-lime-50  ">
       <div className="flex flex-col lg:flex-row flex-wrap items-center justify-around">
         <div className="flex justify-center lg:justify-start w-full lg:w-1/2">
           <img

@@ -5,6 +5,10 @@ import HTML5 from "../assets/HTML5.png";
 import CSS3 from "../assets/CSS3.png";
 import Nodejs from "../assets/NODEJ.png";
 import Reactjs from "../assets/reactJs.png";
+import clanguage from "../assets/c-1.svg";
+import cplusplus from "../assets/c.svg";
+import tailwindcss from "../assets/tailwind-css-2.svg";
+import reduxToolkit from "../assets/redux.svg";
 
 const Skills = () => {
   return (
@@ -68,6 +72,41 @@ const Skills = () => {
           <p className="font-light text-slate-600 mt-3 leading-7">
             Strong in building robust server-side applications with Express.js,
             RESTful APIs, middleware, and efficient backend logic.
+          </p>
+        </div>
+        <div>
+          <img src={reduxToolkit} alt="Express.js" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">Redux-Toolkit</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Experienced in managing global application state with Redux Toolkit,
+            leveraging slices, reducers, and RTK Query for efficient and
+            scalable data handling.
+          </p>
+        </div>
+        <div>
+          <img src={tailwindcss} alt="Express.js" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">Tailwindcss</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Experienced in creating responsive, modern, and utility-first UIs
+            using Tailwind CSS, ensuring clean design and fast development.
+          </p>
+        </div>
+        <div>
+          <img src={cplusplus} alt="Express.js" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">C++</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Skilled in developing efficient and modular programs using C++, with
+            strong knowledge of OOP, STL, memory management, and problem-solving
+            algorithms.
+          </p>
+        </div>
+        <div>
+          <img src={clanguage} alt="Express.js" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">C</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Proficient in C programming for building low-level, high-performance
+            applications, with expertise in pointers, data structures, and
+            system-level programming.
           </p>
         </div>
       </div>
