@@ -1,28 +1,48 @@
 import React from "react";
 import about from "../assets/AboutSvg.svg";
+
 const About = () => {
   return (
-    <div id="about" className="mt-30">
-      <div className="flex flex-row flex-wrap justify-around">
-        <div className="content-center">
-          <img src={about} className="h-70  ml-20 mt-10  " />
+    <div id="about" className="mt-10 sm:mt-20">
+      <div className="flex flex-col lg:flex-row flex-wrap items-center justify-around">
+        <div className="flex justify-center lg:justify-start w-full lg:w-1/2">
+          <img
+            src={about}
+            className="h-60 sm:h-72 lg:h-80 w-auto mt-6 lg:mt-10"
+            alt="About Illustration"
+          />
         </div>
-        <div className="max-w-150 ">
-          <h1 className="text-3xl font-semibold tracking-widest mt-5 mb-5">
-            About
+        <div className="max-w-xl px-4 sm:px-8 mt-8 lg:mt-0 lg:w-1/2">
+          <h1 className="text-2xl sm:text-3xl font-semibold tracking-widest mb-4">
+            About Me
           </h1>
           <div className="h-[1px] bg-slate-400 mb-5"></div>
-          <h2 className=" text-slate-500">
-            Jelly sweet roll jelly beans biscuit pie macaroon chocolate donut.
-            Carrot cake caramels pie sweet apple pie tiramisu carrot cake.
-            Marzipan marshmallow croissant tootsie roll lollipop. Cupcake lemon
-            drops bear claw gummies. Jelly bear claw gummi bears lollipop cotton
-            candy gummi bears chocolate bar cake cookie. Cupcake muffin danish
-            muffin cookie gummies. Jelly beans tiramisu pudding. Toffee soufflé
-            chocolate cake pastry brownie. Oat cake halvah sweet roll cotton
-            candy croissant lollipop. Macaroon tiramisu chocolate bar candy
-            candy carrot cake jelly sweet. Gummies croissant macaroon dessert.
-            Chocolate cake dragée pie.
+          <h2 className="text-sm sm:text-base text-slate-500 leading-relaxed">
+            I’m a passionate{" "}
+            <span className="font-semibold text-slate-700">
+              Full Stack MERN Developer
+            </span>
+            with strong expertise in building dynamic, responsive, and scalable
+            web applications. I have hands-on experience in developing projects
+            using
+            <span className="font-semibold text-slate-700">
+              {" "}
+              React.js, Node.js, Express.js, and MongoDB
+            </span>
+            , along with a solid foundation in JavaScript, HTML, CSS, and modern
+            frameworks.
+            <br />
+            <br />
+            I enjoy solving real-world problems through clean and efficient code
+            while continuously learning new technologies to stay updated in the
+            fast-moving tech industry. My goal is to contribute to innovative
+            teams where I can apply my skills to create impactful digital
+            solutions and grow as a developer.
+            <br />
+            <br />
+            Beyond coding, I am a quick learner, detail-oriented, and have a
+            strong interest in collaborative teamwork that drives both
+            professional and personal growth.
           </h2>
         </div>
       </div>

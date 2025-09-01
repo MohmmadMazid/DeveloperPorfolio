@@ -1,72 +1,73 @@
 import React from "react";
-// import bootstrap from "../assets/bOOTSTRAP.png";
 import javascript from "../assets/jS.png";
 import EXPRESSJS from "../assets/EXPRESSJS.png";
 import HTML5 from "../assets/HTML5.png";
 import CSS3 from "../assets/CSS3.png";
 import Nodejs from "../assets/NODEJ.png";
 import Reactjs from "../assets/reactJs.png";
+
 const Skills = () => {
   return (
-    <div id="skills" className="flex flex-col bg-gray-50 p-5">
-      <div className="m-10 text-3xl font-semibold">
-        <h1 className="ml-7">Tech Stack</h1>
+    <div id="skills" className="bg-gray-50 py-20">
+      <div className="text-center mb-10 px-6">
+        <h1 className="text-3xl md:text-4xl font-semibold">Tech Stack</h1>
+        <div className="h-[2px] bg-gray-500 w-24 mx-auto mt-3"></div>
       </div>
-      <div className="h-[1px] bg-slate-400 mb-5"></div>
 
-      <div className="flex flex-row flex-wrap  m-3 justify-center">
-        <div className=" max-w-100 m-2 p-2">
-          <img src={HTML5} className="h-35 " />
-          <h1 className="text-lg font-semibold mt-5">HTML</h1>
-          <p className="font-extralight text-slate-500 mt-3">
-            Expertise in crafting well-structured and semantic HTML to build
-            accessible and SEO-friendly web pages, ensuring a solid foundation
-            for web applications.
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-6 lg:px-20 text-center">
+        <div>
+          <img src={HTML5} alt="HTML5" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">HTML</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Expertise in crafting semantic, accessible, and SEO-friendly HTML
+            structures that form the solid foundation for modern web
+            applications.
           </p>
         </div>
-        <div className=" max-w-100 m-2 p-2">
-          <img src={CSS3} className="h-35 " />
-          <h1 className="text-lg font-semibold mt-5">CSS</h1>
-          <p className="font-extralight text-slate-500 mt-3">
-            Proficient in designing responsive and visually appealing user
-            interfaces with CSS, focusing on layouts, animations, and enhancing
-            user experience across devices.
+
+        <div>
+          <img src={CSS3} alt="CSS3" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">CSS</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Skilled in creating responsive, visually appealing designs with CSS,
+            focusing on layouts, animations, and smooth user experiences.
           </p>
         </div>
-        <div className=" max-w-100 m-2 p-2">
-          <img src={javascript} className="h-35 " />
-          <h1 className="text-lg font-semibold mt-5">javascript</h1>
-          <p className="font-extralight text-slate-500 mt-3">
-            Expertise in building interactive and dynamic web applications with
-            JavaScript, emphasizing seamless user interactions, DOM
-            manipulation, and application logic.
+
+        <div>
+          <img src={javascript} alt="JavaScript" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">JavaScript</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Proficient in building dynamic, interactive web apps using
+            JavaScript, handling DOM manipulation, logic, and seamless
+            interactions.
           </p>
         </div>
-        <div className=" max-w-100 m-2 p-2">
-          <img src={Reactjs} className="h-35 " />
-          <h1 className="text-lg font-semibold mt-5">React</h1>
-          <p className="font-extralight text-slate-500 mt-3">
-            Proficient in building modern, component-based front-end
-            applications with React.js, focusing on reusable UI, state
-            management, and smooth user experiences
+
+        <div>
+          <img src={Reactjs} alt="React" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">React</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Experienced in building modern, component-based apps with React.js,
+            focusing on reusable UI, state management, and performance.
           </p>
         </div>
-        <div className=" max-w-100 m-2 p-2">
-          <img src={Nodejs} className="h-35 " />
-          <h1 className="text-lg font-semibold mt-5">Nodejs</h1>
-          <p className="font-extralight text-slate-500 mt-3">
-            Skilled in developing scalable backend applications using Node.js,
-            leveraging asynchronous programming for efficient performance and
-            API development.
+
+        <div>
+          <img src={Nodejs} alt="Node.js" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">Node.js</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Skilled in backend development using Node.js, leveraging
+            asynchronous programming for scalable, high-performance APIs.
           </p>
         </div>
-        <div className=" max-w-100 m-2 p-2">
-          <img src={EXPRESSJS} className="h-35 " />
-          <h1 className="text-lg font-semibold mt-5">Expressjs</h1>
-          <p className="font-extralight text-slate-500 mt-3">
-            Experienced in creating robust server-side applications with
-            Express.js, building RESTful APIs, middleware integration, and
-            streamlined backend logic.
+
+        <div>
+          <img src={EXPRESSJS} alt="Express.js" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">Express.js</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Strong in building robust server-side applications with Express.js,
+            RESTful APIs, middleware, and efficient backend logic.
           </p>
         </div>
       </div>
