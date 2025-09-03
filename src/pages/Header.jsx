@@ -73,7 +73,7 @@ const Header = () => {
                 duration={1500}
                 className="cursor-pointer hover:text-blue-600 hover:underline hover:underline-offset-4"
               >
-                resume
+                Resume
               </Link>
             </li>
           </ul>
