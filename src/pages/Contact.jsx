@@ -19,8 +19,8 @@ function Contact() {
 
     emailjs
       .send(
-        "service_j57xgfi",
-        "YOUR_TEMPLATE_ID",
+        "service_7r1euib",
+        "template_aa2j6oe",
         formData,
         "3fAUAGGBU8ei9N_Ra"
       )
@@ -35,6 +35,8 @@ function Contact() {
           toast.error("Failed to send message. Please try again.");
         }
       );
+
+    setFormData({ from_name: "", from_email: "", message: "" });
   };
 
   return (
