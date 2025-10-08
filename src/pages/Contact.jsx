@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
@@ -20,9 +21,12 @@ function Contact() {
     emailjs
       .send(
         "service_7r1euib",
+        // process.env.REACT_APP_EMAILJS_SERVICE_ID,
         "template_aa2j6oe",
+        // process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         formData,
         "3fAUAGGBU8ei9N_Ra"
+        // process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -36,7 +40,7 @@ function Contact() {
         }
       );
 
-    setFormData({ from_name: "", from_email: "", message: "" });
+    // setFormData({ from_name: "", from_email: "", message: "" });
   };
 
   return (

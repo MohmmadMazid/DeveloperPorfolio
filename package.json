@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
+    "dotenv": "^17.2.3",
     "emailjs-com": "^3.2.0",
     "lucide-react": "^0.542.0",
     "react": "^19.1.1",

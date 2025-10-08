@@ -13,7 +13,9 @@ const Resume = () => {
         <img
           src={resumeImage}
           alt="Resume Preview"
-          className="max-h-[420px] max-w-[420px] drop-shadow-lg md:m-3  sm:p-3 rounded-2xl"
+          // width={320}
+          // height={320}
+          className="max-h-[320px] max-w-[320px] drop-shadow-lg md:m-3  sm:p-3 rounded-2xl"
         />
       </div>
 
