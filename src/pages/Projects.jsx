@@ -5,6 +5,8 @@ import porfolio from "../assets/portfolio.png";
 import clothing from "../assets/clothing.png";
 import blogify from "../assets/blogify.png";
 import { FaLink, FaGithub } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+import weatherApp from "../assets/weatherApp.png";
 
 const Projects = () => {
   return (
@@ -97,7 +99,11 @@ const Projects = () => {
               using React.js and Tailwind CSS, ensuring responsiveness across
               devices.
             </p>
-            <a className="text-blue-700 m-2 cursor-pointer inline-block">
+            <a
+              className="text-blue-700 m-2 cursor-pointer inline-block"
+              target="_blank"
+              href="https://mohmmadmazid.netlify.app"
+            >
               <FaLink />
             </a>
             <a
@@ -137,6 +143,36 @@ const Projects = () => {
         </div>
         <div className="bg-gray-50 rounded-2xl shadow-2xl hover:shadow-gray-500 transition duration-300 min-h-[450px] flex flex-col">
           <img
+            src={weatherApp}
+            className="h-60 w-full object-cover rounded-t-2xl border-b-2 border-b-slate-600"
+            alt="Project 3"
+          />
+          <div className="p-5 flex-1">
+            <h2 className="text-2xl font-semibold">WeatherApp</h2>
+            <p className="mt-5 text-slate-600 tracking-wide leading-7">
+              Created a Weather App using HTML, Tailwind CSS, JavaScript,
+              React.js, and the Google Weather API. The app allows users to
+              check the temperature of any city worldwide, including details
+              like humidity, "feels like" temperature, and actual temperature.
+            </p>
+            <a
+              href="https://knowingweather.netlify.app"
+              className="text-blue-700 m-2 cursor-pointer inline-block"
+              target="_blank"
+            >
+              <FaLink />
+            </a>
+            <a
+              href="https://github.com/MohmmadMazid/weatherApp"
+              className="text-balck m-2 cursor-pointer inline-block "
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+          </div>
+        </div>
+        <div className="bg-gray-50 rounded-2xl shadow-2xl hover:shadow-gray-500 transition duration-300 min-h-[450px] flex flex-col">
+          <img
             src={chatApp}
             className="h-60 w-full object-cover rounded-t-2xl border-b-2 border-b-slate-600"
             alt="Project 3"
@@ -153,13 +189,13 @@ const Projects = () => {
             <a className="text-blue-700 m-2 cursor-pointer inline-block">
               <FaLink />
             </a>
-            <a
+            <Link
               className="text-balck m-2 cursor-pointer inline-block "
-              href="https://github.com/MohmmadMazid/Socketapp"
+              to="https://github.com/MohmmadMazid/Socketapp"
               target="_blank"
             >
               <FaGithub />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
