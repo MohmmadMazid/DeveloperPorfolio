@@ -11,6 +11,7 @@ import tailwindcss from "../assets/tailwind-css-2.svg";
 import reduxToolkit from "../assets/redux.svg";
 import mongoDb from "../assets/mongodb-icon-2.svg";
 import mySql from "../assets/mysql-logo-pure.svg";
+import Nextjs from "../assets/nextjs.svg";
 
 const Skills = () => {
   return (
@@ -56,6 +57,15 @@ const Skills = () => {
           <p className="font-light text-slate-600 mt-3 leading-7">
             Experienced in building modern, component-based apps with React.js,
             focusing on reusable UI, state management, and performance.
+          </p>
+        </div>
+        <div>
+          <img src={Nextjs} alt="React" className="h-20 mx-auto" />
+          <h1 className="text-xl font-semibold mt-5">React</h1>
+          <p className="font-light text-slate-600 mt-3 leading-7">
+            Experienced in building scalable, server-rendered applications with
+            Next.js, leveraging features like API routes, dynamic routing, and
+            static site generation for optimal performance.
           </p>
         </div>
 
