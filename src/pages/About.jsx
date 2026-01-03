@@ -33,12 +33,14 @@ const About = () => {
             , along with a solid foundation in JavaScript, HTML, CSS, and modern
             frameworks.
             <br />
-            <br />
-            I enjoy solving real-world problems through clean and efficient code
-            while continuously learning new technologies to stay updated in the
-            fast-moving tech industry. My goal is to contribute to innovative
-            teams where I can apply my skills to create impactful digital
-            solutions and grow as a developer.
+            <br />I am currently learning{" "}
+            <span className="font-semibold text-slate-700">Next.js</span> and
+            <span className="font-semibold text-slate-700">TypeScript</span> to
+            enhance my skills in building server-side rendered and
+            performance-optimized web applications. I enjoy solving real-world
+            problems through clean and efficient code while continuously
+            learning new technologies to stay updated in the fast-moving tech
+            industry.
             <br />
             <br />
             Beyond coding, I am a quick learner, detail-oriented, and have a

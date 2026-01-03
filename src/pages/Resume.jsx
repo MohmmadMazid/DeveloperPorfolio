@@ -1,6 +1,6 @@
 import React from "react";
 import { FaDownload, FaLink } from "react-icons/fa";
-import resumeFile from "../assets/resume1.pdf";
+import resumeFile from "../assets/Mohmmad_Resume.pdf";
 import resumeImage from "../assets/resumesvg.png";
 
 const Resume = () => {
