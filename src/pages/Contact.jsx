@@ -6,8 +6,8 @@ import contact from "../assets/contact.svg";
 
 function Contact() {
   const [formData, setFormData] = useState({
-    from_name: "",
-    from_email: "",
+    name: "",
+    email: "",
     message: "",
   });
 
@@ -32,7 +32,7 @@ function Contact() {
         (result) => {
           console.log(result.text);
           toast.success("Message sent successfully!");
-          setFormData({ from_name: "", from_email: "", message: "" });
+          setFormData({ name: "", email: "", message: "" });
         },
         (error) => {
           console.log(error.text);
@@ -40,7 +40,7 @@ function Contact() {
         }
       );
 
-    // setFormData({ from_name: "", from_email: "", message: "" });
+    // setFormData({ name: "",email: "", message: "" });
   };
 
   return (
@@ -69,8 +69,8 @@ function Contact() {
             </label>
             <input
               type="text"
-              name="from_name"
-              value={formData.from_name}
+              name="name"
+              value={formData.name}
               onChange={handleChange}
               className="w-full p-2 sm:p-3 border rounded mb-4 text-sm sm:text-base"
               required
@@ -81,8 +81,8 @@ function Contact() {
             </label>
             <input
               type="email"
-              name="from_email"
-              value={formData.from_email}
+              name="email"
+              value={formData.email}
               onChange={handleChange}
               className="w-full p-2 sm:p-3 border rounded mb-4 text-sm sm:text-base"
               required
